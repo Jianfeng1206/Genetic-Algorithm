@@ -1,0 +1,8 @@
+C:\Users\sjfmuse\source\repos\GA\GA\bin\Debug\GA.exe.config
+C:\Users\sjfmuse\source\repos\GA\GA\bin\Debug\GA.exe
+C:\Users\sjfmuse\source\repos\GA\GA\bin\Debug\GA.pdb
+C:\Users\sjfmuse\source\repos\GA\GA\obj\Debug\GA.csproj.CoreCompileInputs.cache
+C:\Users\sjfmuse\source\repos\GA\GA\obj\Debug\GA.exe
+C:\Users\sjfmuse\source\repos\GA\GA\obj\Debug\GA.pdb
+C:\Users\sjfmuse\source\repos\GA\GA\obj\Debug\GA.csprojResolveAssemblyReference.cache
+C:\Users\sjfmuse\source\repos\GA\GA\bin\Debug\MathNet.Numerics.xml
