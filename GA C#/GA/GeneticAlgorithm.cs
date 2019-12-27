@@ -12,6 +12,8 @@ namespace GA
         // to create the Genetic algorithms
         private int popsize = 20;  //population size 种群数目
 
+		
+		
         public int Popsize { get => popsize; set => popsize = value; }
        // 这些都是启发式的算法
         private double crossOver = 0.8;

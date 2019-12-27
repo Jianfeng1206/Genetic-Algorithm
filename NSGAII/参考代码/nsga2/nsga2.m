@@ -71,6 +71,7 @@ population=rand(popnum,poplength).*(maxvalue-minvalue)+minvalue;    %²úÉúĞÂµÄ³õÊ
             end
         end
 
+		
         %--¼ÆËãÓµ¼·¾àÀë/Ñ¡Ôñ³öÏÂÒ»´ú¸öÌå
         fnum=0;     %µ±Ç°Ç°ÑØÃæ
         while numel(frontvalue,frontvalue<=fnum+1)<=popnum  %ÅĞ¶ÏÇ°¶àÉÙ¸öÃæµÄ¸öÌåÄÜÍêÈ«·ÅÈëÏÂÒ»´úÖÖÈº
@@ -96,7 +97,10 @@ population=rand(popnum,poplength).*(maxvalue-minvalue)+minvalue;    %²úÉúĞÂµÄ³õÊ
 
 %--³ÌĞòÊä³ö
 fprintf('ÒÑÍê³É£¬ºÄÊ±%4sÃë\n',num2str(toc));    %³ÌĞò×îÖÕºÄÊ±
+
+% °´ÕÕÃ¿Ò»ÁĞÖØĞÂÅÅÁĞ
 output=sortrows(functionvalue(frontvalue==1,:));    %×îÖÕ½á¹û£ºÖÖÈºÖĞ·ÇÖ§Åä½âµÄº¯ÊıÖµ
+
 plot(output(:,1),output(:,2),'*b');             %×÷Í¼
 axis([0,1,0,1]);
 xlabel('F_1');
